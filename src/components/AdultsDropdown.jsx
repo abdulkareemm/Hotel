@@ -12,14 +12,15 @@ const lis = [
   { name: "1 Adults" },
   { name: "2 Adults" },
   { name: "3 Adults" },
-  { name: "4 adults" },
+  { name: "4 Adults" },
 ];
 const AdultsDropdown = () => {
+  const {adults,setAdults} = useContext(RoomContext)
   return (
     <Menu as="div" className="w-full h-full bg-white relative">
       {/* btn */}
       <Menu.Button className="w-full h-full flex items-center justify-between px-8">
-        adults
+        {adults}
         <BsChevronDown className="text-base text-accent-hover" />
       </Menu.Button>
 
@@ -34,6 +35,8 @@ const AdultsDropdown = () => {
               as="li"
               key={idx}
               className="border-b last-of-type:border-b-0 h-12 hover:bg-accent hover:text-white w-full flex justify-center items-center cursor-pointer"
+              value={li.name}
+              onClick={()=>setAdults(li.name)}
             >
               {li.name}
             </Menu.Item>

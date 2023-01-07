@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useContext } from "react";
+import { RoomContext } from "../context/RoomProvider";
 
 // components
-import {AdultsDropdown, CheckIn, CheckOut, KidsDropdown} from './';
-
-
+import { AdultsDropdown, CheckIn, CheckOut, KidsDropdown } from "./";
 
 const BookForm = () => {
+  const {  handleClick } = useContext(RoomContext);
   return (
     <form className="h-[300px]  w-full lg:h-[70px] ">
       <div className="flex flex-col w-full h-full lg:flex-row">
@@ -21,6 +21,10 @@ const BookForm = () => {
         <div className="flex-1 border-1">
           <KidsDropdown />
         </div>
+        {/* btn */}
+        <button type="submit" className="btn btn-primary" onClick={(e)=>handleClick(e)}>
+          Check Now
+        </button>
       </div>
     </form>
   );
