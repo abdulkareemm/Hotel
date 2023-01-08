@@ -8,6 +8,8 @@ export { default as HeroSlider } from "./HeroSlider";
 export { default as AdultsDropdown } from "./AdultsDropdown";
 export { default as CheckIn } from "./CheckIn";
 export { default as CheckOut } from "./CheckOut";
+export { default as ScrollToTop } from "./ScrollToTop";
+
 
 
 
