@@ -9,16 +9,16 @@ import { Home, RoomDetails } from "./pages";
 // react router
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-const router  = createBrowserRouter([
+const router = createBrowserRouter([
   {
-    path:'/',
-    element : <Home/>
+    path: "/Hotel/",
+    element: <Home />,
   },
   {
-    path:'/room/:id',
-    element:<RoomDetails />
-  }
-])
+    path: "/Hotel/room/:id",
+    element: <RoomDetails />,
+  },
+]);
 const App = () => {
   return <div>
   <Header />
