@@ -11,12 +11,12 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
-    path: "/Hotel/",
+    path: "/",
     element: <Home />,
     errorElement:<div>Error</div>
   },
   {
-    path: "Hotel/room/:id",
+    path: "/room/:id",
     element: <RoomDetails />,
     errorElement:<div>Error id</div>
   },
