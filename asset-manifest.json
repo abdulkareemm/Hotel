@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Hotel/static/css/main.5ba4afd5.css",
+    "main.js": "/Hotel/static/js/main.f8acf97c.js",
+    "static/media/1.jpg": "/Hotel/static/media/1.ebdcbd1e0b239b5e4ac1.jpg",
+    "static/media/2.jpg": "/Hotel/static/media/2.151cff65fc629c3bc5b7.jpg",
+    "static/media/3.jpg": "/Hotel/static/media/3.95edf8cfc905d640804a.jpg",
+    "static/media/room.jpg": "/Hotel/static/media/room.95edf8cfc905d640804a.jpg",
+    "static/media/7-lg.png": "/Hotel/static/media/7-lg.261821b60bda00983a80.png",
+    "static/media/6-lg.png": "/Hotel/static/media/6-lg.3565d3a3ea2bd995df2e.png",
+    "static/media/4-lg.png": "/Hotel/static/media/4-lg.f819687b967e575feaf1.png",
+    "static/media/2-lg.png": "/Hotel/static/media/2-lg.cffbf7e52b980531d15c.png",
+    "static/media/1-lg.png": "/Hotel/static/media/1-lg.61cfcd9d4e23aac607ad.png",
+    "static/media/8-lg.png": "/Hotel/static/media/8-lg.51b44668c7e7fdb0fde5.png",
+    "static/media/3-lg.png": "/Hotel/static/media/3-lg.c18b62811005901f177c.png",
+    "static/media/5-lg.png": "/Hotel/static/media/5-lg.471c722176087c5134bd.png",
+    "static/media/7.png": "/Hotel/static/media/7.f44a0e9c97069fdd69b8.png",
+    "static/media/6.png": "/Hotel/static/media/6.ffb3344e2cb0b1cddba3.png",
+    "static/media/4.png": "/Hotel/static/media/4.06d2e8e9f7dde9c51714.png",
+    "static/media/1.png": "/Hotel/static/media/1.109453ab89c797c1ca63.png",
+    "static/media/2.png": "/Hotel/static/media/2.209ee0a12092b55ed2ad.png",
+    "static/media/8.png": "/Hotel/static/media/8.cd05417232ed0e97ff88.png",
+    "static/media/3.png": "/Hotel/static/media/3.9d7f1767699602029e64.png",
+    "static/media/5.png": "/Hotel/static/media/5.84f19999614e1d067a51.png",
+    "static/media/logo-dark.svg": "/Hotel/static/media/logo-dark.ad2c8f6c2b529ca08086fe26c59331e4.svg",
+    "static/media/logo-white.svg": "/Hotel/static/media/logo-white.b9361ef12c8ea002e790ec9dfd1f0153.svg",
+    "index.html": "/Hotel/index.html",
+    "main.5ba4afd5.css.map": "/Hotel/static/css/main.5ba4afd5.css.map",
+    "main.f8acf97c.js.map": "/Hotel/static/js/main.f8acf97c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ba4afd5.css",
+    "static/js/main.f8acf97c.js"
+  ]
+}
