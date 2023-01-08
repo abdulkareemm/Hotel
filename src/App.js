@@ -7,16 +7,16 @@ import { Footer, Header } from "./components";
 import { Home, RoomDetails } from "./pages";
 
 // react router
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {  RouterProvider ,createHashRouter} from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
-    element: <Home />
+    element: <Home />,
   },
   {
     path: "/room/:id",
-    element: <RoomDetails />
+    element: <RoomDetails />,
   },
 ]);
 const App = () => {
