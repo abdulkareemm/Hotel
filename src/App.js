@@ -12,13 +12,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
-    errorElement:<div>Error</div>
+    element: <Home />
   },
   {
     path: "/room/:id",
-    element: <RoomDetails />,
-    errorElement:<div>Error id</div>
+    element: <RoomDetails />
   },
 ]);
 const App = () => {
